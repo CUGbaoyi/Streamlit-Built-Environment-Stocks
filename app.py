@@ -18,7 +18,7 @@ st.set_page_config(
     )
 app.add_app("Home", home.app)
 app.add_app("Spatial Distribution", SpatialView.app)
-app.add_app("Building Stock Data Explore", DataView.app)
+app.add_app("Building Stock Statistics Data Visualization", DataView.app)
 
 # The main app
 app.run()

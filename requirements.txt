@@ -10,3 +10,4 @@ scikit-learn
 matplotlib
 pydeck
 pandas_bokeh
+pyecharts

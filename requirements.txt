@@ -9,4 +9,4 @@ plotly
 scikit-learn
 matplotlib
 pydeck
-
+pandas_bokeh

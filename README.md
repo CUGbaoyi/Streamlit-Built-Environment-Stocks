@@ -46,3 +46,7 @@ streamlit run app.py
 
 ```
 
+### Preview
+
+![Example of the website](https://i.loli.net/2021/06/28/FDfqdwACiKcXBQZ.png)
+

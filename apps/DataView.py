@@ -162,15 +162,16 @@ def building_stock_pop_rank_line(gdf: gpd.GeoDataFrame, city):
     stock = [i / 1000 for i in sorted(gdf['b_total'])]
     pop = sorted(gdf['population'])
 
-    # use pwlf get two line, doc: https://jekel.me/piecewise_linear_fit_py/pwlf.html
-    my_pwlf = pwlf.PiecewiseLinFit(pop, stock)
-    # get two line break value
-    break_value = my_pwlf.fit(2)[1]
-
     # hangzhou has an outlier
     if city == 'hangzhou':
         pop = pop[:-1]
         stock = stock[:-1]
+
+
+    # use pwlf get two line, doc: https://jekel.me/piecewise_linear_fit_py/pwlf.html
+    my_pwlf = pwlf.PiecewiseLinFit(pop, stock)
+    # get two line break value
+    break_value = my_pwlf.fit(2)[1]
 
     # get break value index
     index = 0

@@ -161,12 +161,14 @@ def data_view_2d_plotly(gdf: gpd.GeoDataFrame, material):
                                hover_name=gdf.landuse,
                                color_continuous_scale="RdYlBu_r",
                                center={"lat": center_latitude, "lon": center_longitude},
+                               # mapbox_style="dark",
                                mapbox_style="open-street-map",
                                height=1000,
                                opacity=0.8,
                                zoom=8.5)
 
     fig.update_traces(marker_line_width=0)
+    fig.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
 
     st.plotly_chart(fig, use_container_width=True)
 

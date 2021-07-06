@@ -167,7 +167,6 @@ def building_stock_pop_rank_line(gdf: gpd.GeoDataFrame, city):
         pop = pop[:-1]
         stock = stock[:-1]
 
-
     # use pwlf get two line, doc: https://jekel.me/piecewise_linear_fit_py/pwlf.html
     my_pwlf = pwlf.PiecewiseLinFit(pop, stock)
     # get two line break value

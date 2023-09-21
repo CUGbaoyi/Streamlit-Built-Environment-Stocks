@@ -1,0 +1,23 @@
+Random forest result:
+The root mean squared error of RFR is 88394.01165171173
+The mean absolute error of RFR is 49030.31960933295
+The mape of RFR is 0.4682217846201468
+The R2 of RFR is 0.9584835323403443
+
+Linear Regression result:
+The root mean squared error of LinearRegression is 91230.62994890104
+The mean absolute error of LinearRegression is 53440.86133479713
+The mape of LinearRegression is 3006.782885420027
+The R2 of LinearRegression is 0.9557762003100835
+
+XGBoost result:
+The root mean squared error of XGBR is 88685.34100397251
+The mean absolute error of XGBR is 49804.45548110263
+The mape of XGBR is 4.6269592207144585
+The R2 of XGBR is 0.9582094210804489
+
+Total True value 1553492926.830401
+Total LinearRegression 1552442830.8501985
+Total RFR 1553587045.0668495
+Total XGBR 1546440228.6293707
+Total error is 6.058491469321091e-05

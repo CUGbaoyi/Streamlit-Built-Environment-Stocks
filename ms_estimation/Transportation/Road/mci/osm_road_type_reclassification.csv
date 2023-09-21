@@ -1,0 +1,28 @@
+highway,Classification
+cycleway,Third
+footway,Fourth
+living street,Fourth
+motorway_link,Second
+path,Fourth
+pedestrian,Fourth
+primary,First
+primary_link,Second
+residential,Fourth
+road unclassified,Fourth
+secondary,Second
+service,Third
+steps,Fourth
+tertiary,Third
+track,Third
+trunk,Expressway
+trunk_link,Second
+bridleway,Fourth
+bus_stop,Fourth
+disused,Fourth
+escape,Fourth
+motorway,Expressway
+rest_area,Fourth
+road,Third
+secondary_link,Second
+tertiary_link,Third
+unclassified,Fourth

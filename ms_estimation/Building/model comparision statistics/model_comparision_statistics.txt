@@ -1,0 +1,84 @@
+Case (1) ********************
+Random forest result:
+The mean squared error of RFR is 0.0011690793554800152
+The mean absolute error of RFR is 0.01747525042127963
+The mape of RFR is 0.30278281091417153
+
+Linear Regression result:
+The mean squared error of LinearRegression is 0.0011827280015455847
+The mean absolute error of LinearRegression is 0.02009659665091295
+The mape of LinearRegression is 71.58911956710375
+
+XGBoost result:
+The mean squared error of XGBR is 0.0013568534303816195
+The mean absolute error of XGBR is 0.020165139562425584
+The mape of XGBR is 0.3317582918063994
+
+Total True value 2646797712.6154566
+Total LinearRegression 2549850002.8504534
+Total RFR 2640611628.2336373
+Total XGBR 2526262806.4027076
+
+Case (2) ********************
+Random forest result:
+The mean squared error of RFR is 0.0006331611856627801
+The mean absolute error of RFR is 0.014199639176436452
+The mape of RFR is 0.22518115692514526
+
+Linear Regression result:
+The mean squared error of LinearRegression is 0.0006172958975926638
+The mean absolute error of LinearRegression is 0.01541747109916414
+The mape of LinearRegression is 26.898594780396667
+
+XGBoost result:
+The mean squared error of XGBR is 0.0007539025650978215
+The mean absolute error of XGBR is 0.015950696533363378
+The mape of XGBR is 0.2537718825738829
+
+Total True value 2646797712.6154566
+Total LinearRegression 2513262074.4939466
+Total RFR 2548493270.811968
+Total XGBR 2485892464.096807
+
+Case (3) ********************
+Random forest result:
+The mean squared error of RFR is 0.0007504559169009872
+The mean absolute error of RFR is 0.016460057608020145
+The mape of RFR is 0.15243951631743577
+
+Linear Regression result:
+The mean squared error of LinearRegression is 0.0007403593876317709
+The mean absolute error of LinearRegression is 0.017409014442802104
+The mape of LinearRegression is 8.578865700086745
+
+XGBoost result:
+The mean squared error of XGBR is 0.000847298170487348
+The mean absolute error of XGBR is 0.016942373368522372
+The mape of XGBR is 0.15143632409385363
+
+Total True value 542551581.7468915
+Total LinearRegression 541101380.0802773
+Total RFR 541903445.9811305
+Total XGBR 538918663.9609661
+
+Case (4) ********************
+Random forest result:
+The mean squared error of RFR is 0.00045088644984630344
+The mean absolute error of RFR is 0.011780325620757223
+The mape of RFR is 0.46826105297066045
+
+Linear Regression result:
+The mean squared error of LinearRegression is 0.0004801350399761255
+The mean absolute error of LinearRegression is 0.012835549811579243
+The mape of LinearRegression is 3006.782885421239
+
+XGBoost result:
+The mean squared error of XGBR is 0.0004537177135581761
+The mean absolute error of XGBR is 0.01196214943395836
+The mape of XGBR is 4.6269592207144585
+
+Total True value 1553492926.830401
+Total LinearRegression 1552442830.8501992
+Total RFR 1553801973.7943764
+Total XGBR 1546440228.6293707
+

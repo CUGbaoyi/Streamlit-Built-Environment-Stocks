@@ -6,6 +6,7 @@ Rapid urbanization and booming construction activities exert resource and enviro
 ## MS estimation
 This repository contains code and data for estimating material stock (MS) related to various infrastructure elements, such as buildings, transportation networks, and more. Below is a detailed overview of the repository structure and the purpose of each directory and file.
 
+```
 ms_estimation/
 ├── Building/
 │   ├── data/                 # Raw data for buildings, organized by city
@@ -38,6 +39,7 @@ ms_estimation/
     └── Subway/
         ├── data/                 # Raw data for subways
         ├── ... (other subdirectories and files for subway MS estimation)
+```
 
 ###
 -data/: Contains the raw data for buildings and is organized by cities. For instance, data for buildings in Beijing can be found in the beijing/ subdirectory. Due to the storage limitation, we provide a sample city.

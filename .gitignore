@@ -4,11 +4,11 @@ __pycache__/
 *$py.class
 
 # Shapefile
-*.dbf
-*.cpg
-*.prj
-*.shp
-*.shx
+# *.dbf
+# *.cpg
+# *.prj
+# *.shp
+# *.shx
 
 # C extensions
 *.so

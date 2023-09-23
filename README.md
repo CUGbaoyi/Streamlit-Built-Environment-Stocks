@@ -42,7 +42,7 @@ ms_estimation/
 ```
 
 ###
--data/: Contains the raw data for buildings and is organized by cities. For instance, data for buildings in Beijing can be found in the beijing/ subdirectory. Due to the storage limitation, we provide a sample city.
+-data/: Contains the raw data for buildings and is organized by cities. For instance, data for buildings in Beijing is in the beijing/ subdirectory.
 
 -ground truth/: Contains the training sample data for the MS estimation. This is where the ground truth or reference data resides for different cities.
 
